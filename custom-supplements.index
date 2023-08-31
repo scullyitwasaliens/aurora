@@ -11,7 +11,7 @@
 	<files>
 		<file name="sources.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/sources.xml" />
 		
-		<file name="tashas-cauldron-of-everything.index" url="URL" />
+		<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/scullyitwasaliens/aurora/custom-supplements/tashas-cauldron-of-everything.index" />
 
 	</files>
 </index>
