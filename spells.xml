@@ -7,26 +7,28 @@
         </update>
     </info>
 
-    <element name="SPELL NAME" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SPELLNAME">
-        <supports>CLASSES</supports>
+    <element name="Silvery Barbs" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SILVERY_BARBS">
+        <supports>Bard, Sorcerer, Wizard</supports>
         <description>
-            <p>DESCRIPTION</p>
-            <p class="indent">DESCRIPTION 2</p>
+            <p>You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.</p>
+            <p class="indent">You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.</p>
         </description>
         <setters>
-            <set name="keywords">TYPE</set>
-            <set name="level">LEVEL</set>
-            <set name="school">SCHOOL</set>
-            <set name="time">TIME</set>
-            <set name="duration">DURATION</set>
-            <set name="range">RANGE</set>
+            <set name="keywords">Advantage</set>
+            <set name="level">1</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 reaction, which you take when a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">COMPONENT</set>
-            <set name="isConcentration">true</set>
-            <set name="isRitual">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
         </setters>
+    </element>
+    
+</elements>
     </element>
     
     
