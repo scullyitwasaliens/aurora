@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Custom Supplements</name>
+		<description>Supplements from not previously added sources.</description>
+		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
+		<update version="0.4.4">
+			<file name="custom-supplements.index" url="https://raw.githubusercontent.com/scullyitwasaliens/aurora/main/custom-supplements.index" />
+		</update>
+	</info>
+	<files>
+		<file name="sources.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/sources.xml" />
+		
+		<file name="tashas-cauldron-of-everything.index" url="URL" />
+
+	</files>
+</index>
