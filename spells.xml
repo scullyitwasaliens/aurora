@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Spells</name>
+        <update version="0.1.6">
+            <file name="spells.xml" url="https://raw.githubusercontent.com/scullyitwasaliens/aurora/tashas-cauldron-of-everything/spells.xml" />
+        </update>
+    </info>
+
+    <element name="SPELL NAME" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SPELLNAME">
+        <supports>CLASSES</supports>
+        <description>
+            <p>DESCRIPTION</p>
+            <p class="indent">DESCRIPTION 2</p>
+        </description>
+        <setters>
+            <set name="keywords">TYPE</set>
+            <set name="level">LEVEL</set>
+            <set name="school">SCHOOL</set>
+            <set name="time">TIME</set>
+            <set name="duration">DURATION</set>
+            <set name="range">RANGE</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">COMPONENT</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    
+    
+</elements>
